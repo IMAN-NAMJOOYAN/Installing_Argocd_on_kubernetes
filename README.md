@@ -31,6 +31,8 @@ ArgoCD is a popular choice for organizations looking to adopt GitOps practices i
 1- Edit install-argocd.yaml and change image registry.
 
 Example:
+
+
 ![image](https://github.com/IMAN-NAMJOOYAN/Installing_Argocd_on_kubernetes/assets/16554389/53da33dd-6c58-4edd-8855-65dac0b9b687)
 
 2- Deploy install-argocd.yaml:
