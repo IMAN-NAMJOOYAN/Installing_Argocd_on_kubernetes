@@ -48,8 +48,8 @@ bash ./install.sh
 openssl req -x509 -newkey rsa:4096 -keyout tls.key -out tls.crt -days 365 #Set your own info for example: country name,city name and ...
 ```
 ```
-export TLSCERT=$(cat tls.crt|base64)  #Change tls.crt content to base64
-export TLSKEY=$(cat tls.key|base64) #Change tls.key content to base64
+export TLSCERT=$(cat tls.crt|base64|sed ':a;N;$!ba;s/\n/ /g')  #Change tls.crt content to base64
+export TLSKEY=$(cat tls.key|base64|sed ':a;N;$!ba;s/\n/ /g') #Change tls.key content to base64
 ```
 ```
 # Create secret manifest file for storing tls data
