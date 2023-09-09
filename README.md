@@ -61,8 +61,8 @@ metadata:
   name: self-signed-tls-secret
   namespace: argocd
 data:
-  tls.crt: $(cat tls.crt|base64)
-  tls.key: $(cat tls.key|base64)
+  tls.crt: $TLSCERT
+  tls.key: $TLSKEY
 EOF
 
 ```
