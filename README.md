@@ -108,7 +108,7 @@ kubectl apply -f ingress-argocd.yaml
 
 ![image](https://github.com/IMAN-NAMJOOYAN/Installing_Argocd_on_kubernetes/assets/16554389/8e85f1fd-620a-4899-ac86-b84d4262cc53)
 
-*Note:* Argocd default password store on secret "argocd-initial-admin-secret".
+*Note:* Argocd default password stored on secret "argocd-initial-admin-secret".
 
 ![image](https://github.com/IMAN-NAMJOOYAN/Installing_Argocd_on_kubernetes/assets/16554389/5a0f32a6-f163-4887-ae53-a77cd436d97f)
 
